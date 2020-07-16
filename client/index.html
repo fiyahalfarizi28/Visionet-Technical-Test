@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Form Waterfront Estates">
+        <meta name="author" content="Elvia Nur Anggraini">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Waterfront Estate</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="waterfront logo.ico" rel="shortcut icon" type="image/x-icon">   
+    </head>
+
+    <body>
+
+        <div id="element-to-print">
+
+            <img src="waterfront.jpg" width="20%" height="20%" style="display: block; margin: auto;">
+            <div id="banner" style="display: none">
+                <br/>
+                <h4 align = "center" style="font-weight: bold;">SELAMAT & TERIMA KASIH ATAS PEMBELIAN ANDA </h4>
+                <h4 align = "center" style="font-weight: bold;">DI WATERFRONT ESTATES</h4>
+            </div>
+        
+            <form id="formVisionet">
+                <div class="container" style="justify-content: center">
+                    <br />
+                    <br />
+
+                    <div class="form-group">
+                        <label for="customerName">NAMA CUSTOMER: </label>
+                        <input type="text" style="font-size:1em; padding:.5em; height: 30px; min-width: max-content;" name="customerName" id="customerName" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="cluster">CLUSTER: </label>
+                        <input type="text" name="cluster" style="font-size:1em; padding:.5em; height: 30px; min-width: max-content;" id="cluster" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="streetName">NAMA JALAN: </label>
+                        <input type="text" name="streetName" style="font-size:1em; padding:.5em; height: 30px; min-width: max-content;" id="streetName" required>
+                        <label for="streetNumber">NO: </label>
+                        <input type="number" name="streetNumber" min="0" style="font-size:1em; padding:.5em; height: 30px; min-width: max-content;" id="streetNumber" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="virtualAccountNumber">NO VIRTUAL ACCOUNT NOBU: </label>
+                        <input type="text" style="font-size:1em; padding:.5em; height: 30px; min-width: max-content;" name="virtualAccountNumber" id="virtualAccountNumber" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="paymentAmount">DOWNPAYMENT / PAYMENT: Rp </label>
+                        <input type="text" style="font-size:1em; padding:.5em; height: 30px; min-width: max-content;" name="paymentAmount" id="paymentAmount" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="dueDate">TANGGAL JATUH TEMPO: </label>
+                        <input type="date" style="font-size:1em; padding:.5em; height: 30px; min-width: max-content;" name="dueDate" id="dueDate" required>
+                    </div>
+                    <br/>
+                    
+                    <h6 style="font-weight: bold; text-align: justify">HARAP KIRIM DOKUMEN YANG DI CEK DIBAWAH INI</h6>
+                    <h6 style="font-weight: bold; text-align: justify">KE TEAM PSAS WATERFRONT ESTATES</h6>
+                    <h6 style="font-weight: normal; text-align: justify">SENMI (+62 838 1555 7112): Senmi.alviana@lippo-cikarang.com</h6>
+                    <br/>
+                    
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label for="ektppemohon">1. E-KTP PEMOHON </label>
+                                <input type="checkbox" name="ektppemohon" id="ektppemohon" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="ektppasangan">2. E-KTP PASANGAN </label>
+                                <input type="checkbox" name="ektppasangan" id="ektppasangan" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="npwp">3. NPWP </label>
+                                <input type="checkbox" name="npwp" id="npwp" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="kk">4. KK </label>
+                                <input type="checkbox" name="kk" id="kk" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="aktanikah">5. AKTA NIKAH </label>
+                                <input type="checkbox" name="aktanikah" id="aktanikah">
+                                <br />
+                                <h10 style="font-size: 10px">
+                                    (TIDAK PERLU AKTA NIKAH JIKA
+                                    PEMBELI STATUS CERAI HIDUP / CERAI MENINGGAL)
+                                </h10>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label>6. BUKTI PENGHASILAN: </label>
+                                <ul>
+                                    <li>
+                                        <label for="flagkaryawan">KARYAWAN </label>
+                                        <input type="checkbox" name="flagkaryawan" id="flagkaryawan">
+                                        <h6 style="font-weight: normal; text-align: justify">(SK KERJA / SLIP GAJI & REKENING)</h6>
+                                    </li>
+                                    <li>
+                                        <label for="flagpengusaha">PENGUSAHA </label>
+                                        <input type="checkbox" name="flagpengusaha" id="flagpengusaha">
+                                        <h6 style="font-weight: normal; text-align: justify">(SK USAHA / IZIN USAHA & REKENING</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="form-group">
+                                <label for="persetujuanpasangan">7. SURAT PERSETUJUAN PASANGAN</label>
+                                <input type="checkbox" name="persetujuanpasangan" id="persetujuanpasangan" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr align="center" width="100%" color="green" noshade>
+                    
+                    <h6 style="font-weight: normal; text-align: justify">Jika masih ada yang perlu ditanyakan silahkan menghubungi</h6><br />
+                    <div class="form-group">
+                        <label for="salesName">NAMA SALES: </label>
+                        <input type="text" style="font-size:1em; padding:.5em; height: 30px; min-width: max-content;" name="salesName" id="salesName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactperson">Hp / WhatsApp: </label>
+                        <input type="text" style="font-size:1em; padding:.5em; height: 30px; min-width: max-content;" name="contactperson" id="contactperson" required>
+                        <label for="salesemail">    EMAIL: </label>
+                        <input type="text" style="font-size:1em; padding:.5em; height: 30px; min-width: max-content;" name="salesemail" id="salesemail" required>
+                    </div>
+                    
+                    <div class="container" style ="text-align: center;">
+                        <button type="submit" id="submitbutton" class="btn btn-secondary" >Submit</button><br />
+                    </div>
+                    
+                </div>
+        
+            </form>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Your Data Successfully Submitted </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 id="nama">
+                            Nama:
+                        </h5>
+                        <h5 id="clusterclient">
+                            Cluster:
+                        </h5>
+                        <h5 id="alamat">
+                            Alamat:
+                        </h5>
+                        <h5 id="downpayment">
+                            Downpayment / Payment:
+                        </h5>
+                        <h5 id="jatuhtempo">
+                            Tanggal jatuh tempo:
+                        </h5>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" id="savetopdfbutton" onclick="savetopdf()" class="btn btn-primary">Save to PDF</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script>
+            function addScript(url) {
+                var script = document.createElement('script');
+                script.type = 'application/javascript';
+                script.src = url;
+                document.head.appendChild(script);
+            }
+            addScript('https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js');
+            
+            let submitted = false;
+        
+            document.getElementById("formVisionet").addEventListener("submit", function (event) {
+                event.preventDefault();
+                if (submitted) {
+                    $("#exampleModalLong").modal("show");
+                } else {
+        
+                    document.getElementById("nama").innerHTML = `Nama: ${document.getElementById("customerName").value}`;
+                    document.getElementById("clusterclient").innerHTML = `Cluster: ${document.getElementById("cluster").value}`;
+                    document.getElementById("alamat").innerHTML = `Alamat: ${document.getElementById("streetName").value}, No. ${document.getElementById("streetNumber").value}`
+                    document.getElementById("downpayment").innerHTML = `Downpayment / Payment: ${document.getElementById("paymentAmount").value}`
+                    document.getElementById("jatuhtempo").innerHTML = `Jatuh tempo: ${document.getElementById("dueDate").value}`
+            
+                    axios({
+                        method: 'post',
+                        url: "http://localhost:3000/formhistory",
+                        data: {
+                            customerName: document.getElementById("customerName").value, 
+                            cluster: document.getElementById("cluster").value, 
+                            address: [document.getElementById("streetName").value, document.getElementById("streetNumber").value], 
+                            nobuVA: document.getElementById("virtualAccountNumber").value, 
+                            paymentAmount: document.getElementById("paymentAmount").value, 
+                            dueDate: document.getElementById("dueDate").value,
+                            flagEktp: document.querySelector('input[id="ektppemohon"]').checked, 
+                            flagEktpCouple: document.querySelector('input[id="ektppemohon"]').checked, 
+                            flagNpwp: document.querySelector('input[id="npwp"]').checked, 
+                            flagKk: document.querySelector('input[id="kk"]').checked, 
+                            flagAktaNikah: document.querySelector('input[id="aktanikah"]').checked, 
+                            flagBuktiPenghasilan: document.querySelector('input[id="flagkaryawan"]').checked || document.querySelector('input[id="flagpengusaha"]').checked, 
+                            flagSuratPersetujuanPasangan: document.querySelector('input[id="persetujuanpasangan"]').checked, 
+                            salesName: document.getElementById("salesName").value, 
+                            contactPerson: document.getElementById("contactperson").value, 
+                            email: document.getElementById("salesemail").value, 
+                        }
+                    }).then( (response) => {
+                        console.log(response.data)
+                        submitted = true;
+                        $("#banner").show();
+                        $("#exampleModalLong").modal("show");
+                    }).catch( (err) => {
+                        alert("Error while saving data, detail: " + err );
+                    });
+                }
+            });
+        
+            function savetopdf() {
+                console.log("hohoho")
+                $("#submitbutton").remove();
+                var element = document.getElementById('element-to-print');
+                console.log(element)
+                html2pdf(element);
+            }
+
+            var input = document.querySelectorAll('input'); // get the input element
+            for (var i=0; i<input.length; i++) {
+                input[i].addEventListener('input', resizeInput); // bind the "resizeInput" callback on "input" event
+                resizeInput.call(input[i]); // immediately call the function
+                function resizeInput() {
+                    this.style.width = this.value.length + "ch";
+                }
+            }
+
+            console.log("Page successfully loaded")
+        </script>
+    </body>
+</html>
+
+
